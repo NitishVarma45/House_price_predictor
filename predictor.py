@@ -23,4 +23,4 @@ bhk = int(input("Enter BHK: "))
 
 predicted_price = predict_price(location, total_sqft, bath, bhk)
 
-print(f"\nEstimated House Price: ₹ {predicted_price} Lakhs")
+print(f"\nEstimated House Price: {predicted_price} Lakhs")
